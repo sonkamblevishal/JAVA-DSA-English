@@ -1,0 +1,14 @@
+/         If student is Adult AND power is Divisibleby 4
+//         Then print "He is a Young Avenger";
+//         Else Print "He is too Young";
+            
+        Scanner scn = new Scanner(System.in);
+        int age = scn.nextInt();
+        int power = scn.nextInt();
+        if(age>=20 && power % 4 == 0)
+        {
+            System.out.println("He is a Young Avenger");
+        }else{
+                System.out.println("He is too Young");
+            }
+        

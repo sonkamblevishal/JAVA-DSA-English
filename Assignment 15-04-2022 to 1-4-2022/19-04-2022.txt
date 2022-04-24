@@ -1,0 +1,20 @@
+// WAP to find number of pairs with given sum
+  
+        
+
+               Scanner   scan = new Scanner(System.in);
+          int n = scan.nextInt();
+        
+          for(int i=1; i<=n; i++)
+        {
+            for(int j=i+1; j<=n ; j++)
+            {
+                
+                 if(i+j==n){
+                       
+                      System.out.println(i + " " + j);
+                 }
+                   
+               
+            }
+        }
